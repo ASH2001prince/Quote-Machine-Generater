@@ -196,4 +196,3 @@ let App = () => {
   );
 };
 export default App;
-console.log("AsH is working");
