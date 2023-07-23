@@ -1,0 +1,19 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+/* The needed css will be written in here */
+
+@layer base {
+  html {
+    font-size: 16px;
+    font-family: "GFS Didot", serif;
+  }
+  body {
+    height: calc(100vh - 1px);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+  }
+}
